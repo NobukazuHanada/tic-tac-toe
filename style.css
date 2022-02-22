@@ -1,0 +1,15 @@
+#tic-tac-toe-table {
+    background-color: rgba(138, 184, 220, 0.762);
+    width: 500px;
+    height: 500px;
+    display: grid;
+}
+
+#tic-tac-toe-table > tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#tic-tac-toe-table > tr > td {
+    border: 1px solid rgb(58, 58, 58);
+}
