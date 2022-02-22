@@ -3,6 +3,7 @@
     width: 500px;
     height: 500px;
     display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #tic-tac-toe-table > tr {
@@ -12,4 +13,6 @@
 
 #tic-tac-toe-table > tr > td {
     border: 1px solid rgb(58, 58, 58);
+    font-size: 110px;
+    text-align: center;
 }
